@@ -1,6 +1,6 @@
 
 
-HOME_URL = 'https://github.com/ftobia/longshot/blob/master/longshot.py'
+HOME_URL = 'https://raw.githubusercontent.com/ftobia/longshot/develop/longshot.py'
 
 
 def upgrade():
