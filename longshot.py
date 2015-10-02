@@ -1,4 +1,4 @@
-
+__version__ = '0.1'
 
 HOME_URL = 'https://raw.githubusercontent.com/ftobia/longshot/develop/longshot.py'
 
@@ -28,5 +28,5 @@ def restart():
 
 
 if __name__ == '__main__':
-    backup_self()
-    download_and_overwrite()
+    print __version__
+    upgrade()
