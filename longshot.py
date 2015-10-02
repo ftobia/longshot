@@ -25,9 +25,12 @@ def download_and_overwrite():
 
 def restart():
     import os, sys
-    os.execvp(sys.executable, sys.argv)
+    os.execvp(sys.executable, [sys.executable] + sys.argv)
 
 
 if __name__ == '__main__':
+    import sys
+    print sys.executable
+    print sys.argv
     print __version__
     upgrade()
