@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 __version__ = '0.1'
 
 HOME_URL = 'https://raw.githubusercontent.com/ftobia/longshot/develop/longshot.py'
@@ -24,7 +25,7 @@ def download_and_overwrite():
 
 def restart():
     import os
-    os.execlp('python', __name__)
+    os.execl(__name__)
 
 
 if __name__ == '__main__':
