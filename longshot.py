@@ -24,8 +24,8 @@ def download_and_overwrite():
 
 
 def restart():
-    import os
-    os.execvp(__name__, [])
+    import os, sys
+    os.execvp(sys.executable, sys.argv)
 
 
 if __name__ == '__main__':
